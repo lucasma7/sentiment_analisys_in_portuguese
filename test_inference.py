@@ -2,8 +2,8 @@ import pipeline as pipe
 
 
 if __name__ == '__main__':
-    path_0 = 'sentiment_analisys_in_portugues/models/modelo_EmbBAG.pt'
-    path_1 = 'sentiment_analisys_in_portugues/models/modelo_lstm.pt'
+    path_0 = 'models/modelo_EmbBAG.pt'
+    path_1 = 'models/modelo_lstm.pt'
 
 
     n_model = int(input("Digite o numero do modelo desejado\n [0]: EmbeddingBag\n [1]: LSTM\n"))

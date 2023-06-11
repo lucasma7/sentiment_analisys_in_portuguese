@@ -67,7 +67,7 @@ class clean_data:
   
 
 def vocab():
-   with open('sentiment_analisys_in_portugues/pipeline/vocab.pkl', 'rb') as file:
+   with open('pipeline/vocab.pkl', 'rb') as file:
     vocab = pickle.load(file)
     return vocab
    
